@@ -10,9 +10,9 @@
     * #### Avoid duplicates ####  
         * Duplicates were defind as retweets. Retweets are a fully copy of the original tweet with no added content. Quoted Tweets however, are a retweet with some additional content added by the person retweeting. Retweets are filtered out due to the -is:retweet operator (the dash is used to negate)
     * #### Produce a count of all tweets consumed ####
-     * Count of tweets consumed/loaded is available in the vw_tweets SQL view. Please reference the SQL_Scripts file for the view's SQL code.
+      * Count of tweets consumed/loaded is available in the vw_tweets SQL view. Please reference the SQL_Scripts file for the view's SQL code.
     * #### Produce a count of unique tweets ####
-     * Only unique tweets are consumed/loaded into DB. This solution leverages Twitter's API to filter out duplicates (aka retweets)
+      * Only unique tweets are consumed/loaded into DB. This solution leverages Twitter's API to filter out duplicates (aka retweets)
   * Save all code in a GitHub repo and share the link with us
 * ## Answer the following: ##
     * ### What are the risks involved in building such a pipeline? ###  
@@ -33,4 +33,4 @@
         * Setting up infrastructure - 2 weeks; 1 week for infrastructure setup and testing 1 week for ETL/ELT setup and testing. (logging, alert system, and unit tests included in 2 week estimate)
       * #### What is your estimated timeline for delivery for a production-ready solution? ####
         * ~4 weeks
-        * This timeline can be flexed shorter or longer depending on deadlines. The methodology refinement phase can be as complicated or simple as the timeline would allow. 
+        * This timeline can be flexed shorter or longer depending on deadlines. The methodology refinement phase has the most room for adjustment; a complex solution would need more time, but a simple approach can help move forward with the solution, and further refinements can be made later on.
